@@ -5817,7 +5817,6 @@
   position: absolute;
   left: 100%;
   -webkit-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   top: 628px;
 }
@@ -5830,7 +5829,6 @@
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .first-screen__head {
@@ -5899,7 +5897,6 @@
   height: 2px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   top: 130%;
   position: absolute;
@@ -5938,7 +5935,6 @@
   width: 285px;
   min-height: 125px;
   background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#FFFFFF));
-  background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF);
   background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
   -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
@@ -5960,7 +5956,6 @@
   color: #000000;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-left: 10px;
   padding-right: 10px;
@@ -5974,7 +5969,6 @@
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .first-screen__date {
@@ -6029,6 +6023,7 @@
   -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+  border: none;
 }
 @media (max-width: 991px) {
   .first-screen__form-input {
@@ -6051,9 +6046,10 @@
   -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+  border: none;
+  outline: none;
 }
 .first-screen__form-button:hover {
-  background: #FFFFFF;
   cursor: pointer;
 }
 .first-screen__small-text {
@@ -6120,7 +6116,6 @@
   height: 2px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   top: 200%;
   position: absolute;
@@ -6347,7 +6342,6 @@
   height: 2px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   top: 200%;
   position: absolute;
@@ -6397,6 +6391,7 @@
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  padding: 0 10px;
 }
 .need__card-text_bold {
   font-family: "Gilroy Bold";
@@ -6416,7 +6411,6 @@
   top: 100%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .need__text {
@@ -6507,7 +6501,6 @@
   height: 2px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   top: 200%;
   position: absolute;
