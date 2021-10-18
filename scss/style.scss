@@ -1,0 +1,21 @@
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import './helpers/helpers.scss';
+@import './helpers/fonts.scss';
+@import './modules/first-screen.scss';
+@import './modules/program.scss';
+@import './modules/need.scss';
+@import './modules/days.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}

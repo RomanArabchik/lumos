@@ -1,0 +1,130 @@
+.need {
+  background-color: $purple-text;
+  padding-top: 82px;
+  padding-bottom: 94px;
+  @media (max-width: 768px) {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+  @media (max-width: 576px) {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 102px;
+    text-transform: uppercase;
+    color: $yellow;
+    text-align: center;
+    @include font-bold;
+    font-size: 36px;
+    position: relative;
+    @media (max-width: 960px) {
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
+    @media (max-width: 576px) {
+      font-size: 20px;
+    }
+
+    &::after {
+      background: $white;
+      content: "";
+      height: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 200%;
+      position: absolute;
+      width: 70px;
+      @media (max-width: 1200px) {
+        top:110%;
+      }
+    }
+  }
+
+  &__item {
+    max-width: 349px;
+    @media (max-width: 576px) {
+      max-width: 300px;
+    }
+  }
+
+  &__card {
+    background-color: $white;
+    border-radius: 0 0 40px 40px;
+    width: 349px;
+    height: 484px;
+    position: relative;
+    @media (max-width: 576px) {
+      max-width: 300px;
+      height: 450px;
+    }
+  }
+
+  &__card-img {
+    width: 349px;
+    height: 238px;
+    @media (max-width: 576px) {
+      width: 300px;
+      height: 205px;
+    }
+  }
+
+  &__card-text {
+    margin-top: 33px;
+    @include font-norm-18;
+    line-height: 21px;
+    text-align: center;
+
+    &_bold {
+      @include font-bold;
+      margin-bottom: 17px;
+      min-height: 88px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__text {
+    margin-top: 22px;
+    color: $white;
+    @include font-norm-18;
+    line-height: 21px;
+    text-align: center;
+    @media (max-width: 576px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  &__text-title {
+    min-height: 63px;
+  }
+
+  &__list {
+    margin-top: 13px;
+  }
+
+  &__list-item {
+    text-align: left;
+    margin-bottom: 17px;
+    p {
+      margin-left: 14px;
+    }
+    img {
+      height: 30px;
+    }
+  }
+}

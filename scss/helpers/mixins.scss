@@ -1,0 +1,30 @@
+@mixin font-norm {
+  font-family: 'Gilroy Regular';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-norm-18 {
+  @include font-norm;
+  font-size: 18px;
+}
+
+@mixin font-bold {
+  font-family: 'Gilroy Bold';
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin font-mul-light {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin font-mul-bold {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
